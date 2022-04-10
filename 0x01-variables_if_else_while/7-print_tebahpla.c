@@ -1,16 +1,17 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Function Begins
  *
- * Return: alway returns 0
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-        char a;
+	int i;
 
-        for (a = 'z'; a >= 'a' ; a--)
-                putchar(a);
-        putchar('\n');
-        return (0);
+	for (i = 122; i  >= 97; i--)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
