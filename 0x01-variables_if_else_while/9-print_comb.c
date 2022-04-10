@@ -1,23 +1,22 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Function begins
  *
- * Return: alway returns 0
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-        int i;
+	int i;
 
-        for (i = 10; i < 20; i++)
-        {
-                putchar((i % 10) + '0');
-                if (i != 19)
-                {
-                        putchar(',');
-                        putchar(' ');
-                }
-        }
-        putchar('\n');
-        return (0);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
