@@ -2,30 +2,33 @@
 
 /**
  * a function that concatenates two strings
- * _strncat - Concatenates two stings
- * @dest: Destination string
- * @src: the source of the string
- * @n: number of bytes to look
- * Return: Returns a pointer to the resulting string dest
+ * _strncat - concatenates two strings
+ * @dest: input parameter string
+ * @src: input parameter string
+ * @n: times to iterations
+ *
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
-	int j;
+	int g;
+	int h;
 
-	i = 0;
-	while (dest[i] != '\0')
+	g = 0;
+
+	while (dest[g] != 0)
 	{
-		i++;
+		g++;
 	}
-	j = 0;
-	while (j < n && src[j] != '\0')
+
+	h = 0;
+
+	while (src[h] != 0 && h < n)
 	{
-		dest[i] = src[j];
-		i++;
-		j++;
+		dest[g] = src[h];
+		g++;
+		h++;
 	}
-	dest[i] = '\0';
 	return (dest);
 }
