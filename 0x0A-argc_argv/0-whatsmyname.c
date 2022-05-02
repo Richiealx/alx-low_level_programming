@@ -1,5 +1,5 @@
 /*
- * File: 1-args.c
+ * File: 0-whatsmyname.c
  * Auth: Richard Frimpong
  */
 
