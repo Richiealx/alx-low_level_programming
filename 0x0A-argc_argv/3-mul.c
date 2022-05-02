@@ -1,7 +1,3 @@
- /* 
-  * File: 3-mul.c
- * Auth: Richard Frimpong
- */
 
 #include <stdio.h>
 
