@@ -1,5 +1,5 @@
-                                                                                                                                         *
- /* File: 3-mul.c
+                                                                                                              /*
+ * File: 3-mul.c
  * Auth: Richard Frimpong
  */
 
