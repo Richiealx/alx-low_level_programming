@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 /**
  * main - multiplies two positive numbers
@@ -11,15 +9,15 @@
 int main(int argc, char *argv[])
 {
 unsigned long mul;
-int a, b;
+int i, j;
 	if (argc != 3)
 	{ printf("Error\n");
 	exit(98); }
-	for (a = 1; a < argc; a++)
+	for (i = 1; i < argc; i++)
 	{
-		for (b = 0; argv[a][b] != '\0'; b++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (argv[a][b] > 57 || argv[a][b] < 48)
+			if (argv[i][j] > 57 || argv[i][j] < 48)
 			{  printf("Error\n");
 			exit(98); }
 		}
