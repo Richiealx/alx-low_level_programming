@@ -1,5 +1,3 @@
-0-malloc_checked
-
 #include "main.h"
 
 /**
