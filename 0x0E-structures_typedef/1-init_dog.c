@@ -1,5 +1,3 @@
-1-init_dog.c:
-
 #include "dog.h"
 
 /**
