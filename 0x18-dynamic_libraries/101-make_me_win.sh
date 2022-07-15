@@ -1,1 +1,3 @@
-wget -P /tmp https://github.com/Richiealx/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libmask.soexport LD_PRELOAD=/tmp/libmask.so
+#!/bin/bash
+wget -P /tmp/ https://raw.github.com/Aysuarex/alx-low_level_programming/master/0x18-dynamic_libraries/nrandom.so
+export LD_PRELOAD=/tmp/nrandom.so
